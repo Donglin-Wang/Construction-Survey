@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title Goes Here</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="login_style.css">
+</head>
+
+<body class="blank">
+	<div id="box" class="login_card">
+		<button id="toggleButton">Click me</button>
+	</div>
+	
+</body>
+
+<script type="text/javascript">
+	var boxOne = document.getElementById('box');
+	
+	console.log(boxOne);
+	console.log(document.getElementById('toggleButton'));
+	document.getElementById('toggleButton').onclick = function() {
+    		boxOne.classList.add('horizontal');
+	}
+
+</script>
+</html>

@@ -1,0 +1,141 @@
+html, body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+html *{
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+a:link {
+   text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+
+
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 750px;
+    margin: auto;
+    border: none;
+    z-index: 1;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    border: none;
+}
+tr{
+	height: 70px;
+}
+tr:nth-child(even) {
+    background-color: #cccccc;
+}
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+
+
+
+.dashboard{
+	width: 80%;
+	margin: auto;
+	margin-top: 50px;
+}
+
+
+.headerMainTitle{
+	margin: auto;
+	text-align: center;
+	color: white;
+	font-size: 400%;
+	font-family: 'Open Sans', sans-serif;
+}
+.headSubtitle{
+	text-align: center;
+	font-size: 150%;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+}
+.header{
+	height: 300px;
+	width: 100%;
+	display: block;
+	
+	background-color: #0288d1;
+}
+
+
+.survey{
+	box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 
+				0 6px 30px 5px rgba(0, 0, 0, 0.12), 
+				0 8px 10px -5px rgba(0, 0, 0, 0.3);
+}
+.surveyBody{
+		background-color: #e1f5fe;
+		padding-top: 50px;
+		padding-bottom: 50px;
+}
+
+.navbar{
+	background-color: #0288d1;
+	height: 70px; 
+	width: 100%; 
+	display: block;
+	margin: 0;
+	box-shadow: 0 0 0 0;
+}
+
+
+
+.toggler{
+	color: black;
+	margin: 0;
+	box-shadow: 0 0 0 0;
+	background: linear-gradient(to bottom, #f9f9f7 89%, #cccccc 104%);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	text-transform: capitalize;
+	font-size: 110%;
+	font-weight: 300 bold;
+}
+.current{
+	background: #ffffff;
+}
+.current:hover{
+	box-shadow: 0 0 0 0;
+}
+#toDash:hover{
+	box-shadow: 0 0 0 0;
+}
+#toProgress:hover{
+	box-shadow: 0 0 0 0;
+}
+
+.back{
+	vertical-align: -7%;
+	width: 30px;
+	height: 30px;
+}
+#backbutton:hover .back {
+  transform: translate(-5px, 0);
+  transition: all 0.2s ease-in-out;
+}

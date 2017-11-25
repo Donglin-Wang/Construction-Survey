@@ -1,0 +1,70 @@
+
+html, body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+html *{
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+a:link {
+   text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+
+
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 750px;
+    margin: auto;
+    border: none;
+    z-index: 1;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    border: none;
+}
+tr{
+	height: 70px;
+}
+tr:nth-child(even) {
+    background-color: #cccccc;
+}
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.login_card{
+	width: 300px;
+	height: 400px;
+	background-color: #ffffff;
+	margin: auto;
+	margin-top: 150px;
+	transition: all 3s ease;
+}
+.horizontal{
+  	margin-left: 50%;
+
+}
+.blank {
+	background-color: #0288d1;
+	max-height: 700px;
+	overflow: hidden;
+}
